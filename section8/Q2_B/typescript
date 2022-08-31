@@ -1,0 +1,36 @@
+Script started on 2021-12-10 12:14:27+03:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ ./program 127.0.0.1 6000 3[4Pgcc server.c -o serverclient.c -o client./program 127.0.0.1 6000 3[4Pgcc client.c -o client./program 127.0.0.1 6000 3[2Pgcc program.c -o program[2Pclient.c -o clientserver.c -o server./program 127.0.0.1 6000 3[4Pgcc server.c -o serverclient.c -o clientprogram.c -o program./program 127.0.0.1 6000 3[4Pgcc client.c -o client./program 127.0.0.1 6000 3[4Pgcc client.c -o client./program 127.0.0.1 6000 3[C[1P[1P[1P[1P[1P[1P[1P[1@s[1@c[1@r[1@i[1@p[1@t
+bash: ./script: No such file or directory
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ ./script 127.0.0.1 6000 3[C[1@.[1@s[1@h
+bash: ./script.sh: Permission denied
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ chmode[K 777 ./s
+script.sh  server     server.c   
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ chmod 777 ./ss[Kcript.sh 
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ chmod 777 ./script.sh ./script.sh 127.0.0.1 6000 3
+./script.sh: line 3: ((: i<=: syntax error: operand expected (error token is "<=")
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ ./script.sh 127.0.0.1 6000 3
+./script.sh: line 5: ./program.c: Permission denied
+./script.sh: line 5: ./program.c: Permission denied
+./script.sh: line 5: ./program.c: Permission denied
+./script.sh: line 5: ./program.c: Permission denied
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ chmode[K 777 ./program.c[K[K
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ chmod 777 ./program./script.sh 127.0.0.1 6000 3
+./script.sh: line 5: ./program.c: Permission denied
+./script.sh: line 5: ./program.c: Permission denied
+./script.sh: line 5: ./program.c: Permission denied
+./script.sh: line 5: ./program.c: Permission denied
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ ./script.sh 127.0.0.1 6000 3[9Pchmod 777 ./program./script.sh 127.0.0.1 6000 3[9Pchmod 777 ./program.c
+]0;amir@amir-VirtualBox: ~/Desktop/oslab8/Q2_B[01;32mamir@amir-VirtualBox[00m:[01;34m~/Desktop/oslab8/Q2_B[00m$ chmod 777 ./program.c./script.sh 127.0.0.1 6000 3
+./program.c: line 1: //Amirreza: No such file or directory
+./program.c: line 8: syntax error near unexpected token `('
+./program.c: line 8: `// void childWork(pid_t pid)'
+./program.c: line 1: //Amirreza: No such file or directory
+./program.c: line 8: syntax error near unexpected token `('
+./program.c: line 8: `// void childWork(pid_t pid)'
+./program.c: line 1: //Amirreza: No such file or directory
+./program.c: line 8: syntax error near unexpected token `('
+./program.c: line 8: `// void childWork(pid_t pid)'
+./program.c: line 1: //Amirreza: No such file or directory
+./program.c: line 8: syntax error near unexpected token `('
+./program.c: line 8: `// void childWork(pid_t pid)'
+]0;a
